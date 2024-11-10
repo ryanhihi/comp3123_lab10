@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+}
+
+.data-entry-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #4CAF50;
+  border-radius: 8px;
+}
+
+.data-entry-form label {
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.data-entry-form input,
+.data-entry-form select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.data-entry-form button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.data-entry-form button:hover {
+  background-color: #45a049;
+}
+
+.submitted-data {
+  margin-top: 20px;
+  border: 1px solid #4CAF50;
+  padding: 10px;
+  border-radius: 8px;
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+.submitted-data p {
+  margin: 5px 0;
+}
